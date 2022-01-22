@@ -1,10 +1,10 @@
-# Module 3 | Assignment - PyPoll
+# **Module 3 | Assignment - PyPoll**
 **Note:**
 I worked with Aman Gill for this challenge. We followed pair-programming methodology and the code and readme were co-created.
 
-#Election_Analysis
+# **Election_Analysis**
 
-##Project Overview
+## **Project Overview**
 
 We are performing election audit for a Colorado Board of Elections employee. The following tasks need to be performed:
 
@@ -18,7 +18,7 @@ We are performing election audit for a Colorado Board of Elections employee. The
 **Data Source:** election_results.csv
 **Software:** Python 3.9.7, Visual Studio Code, 1.63.2
 
-##Results
+## **Results**
 
 **The analysis of the election show that:**
 
@@ -33,7 +33,7 @@ We are performing election audit for a Colorado Board of Elections employee. The
 9. The winner of election was:
 10. Diana DeGette, who received 73.8% of vote and 272,892 number of votes.
 
-##Challenge Overview
+## **Challenge Overview**
 
 The Colorado Board of Elections employee now wants us to perform an audit based on county. The following tasks need to be performed:
 
@@ -43,7 +43,7 @@ The Colorado Board of Elections employee now wants us to perform an audit based 
 4. Determine the largest outcome of the election based on popular vote by county.
 5. Challenge Results
 
-The analysis of election by county show us that:
+**The analysis of election by county show us that:**
 
 1. There were three counties:
     1. Jefferson
@@ -56,7 +56,7 @@ The results for each county are:
 The largest outcome of election was in:
     Denver county, that received 82.8% of votes and a total of 306,055 votes.
 
-##Election Audit Summary
+## **Election Audit Summary**
 
 This python code showed us how to get results for small data set which includes ballot number, candidate name and location. We were able to find who won, by what percentage and which county got most votes. This code can be modified and used for any election and here here two examples:
 
