@@ -4,7 +4,7 @@ I worked with Aman Gill for this challenge. We followed pair-programming methodo
 
 # **Election_Analysis**
 
-## **Project Overview**
+## **Challenge 1 Overview**
 
 We are performing election audit for a Colorado Board of Elections employee. The following tasks need to be performed:
 
@@ -24,18 +24,19 @@ We are performing election audit for a Colorado Board of Elections employee. The
 
 1. There were 369,711 votes cast in the election.
 2. The candidates were:
-3. Charles Casper Stockham
-4. Diana DeGette
-5. Raymon Anthony Doane -The candidate results were:
-6. Charles Casper Stockham received 23.0% of vote and 85,213 number of votes.
-7. Diana DeGette received 73.8% of vote and 272,892 number of votes.
-8. Raymon Anthony Doane received 3.1% of vote and 11,606 number of votes.
+    1. Charles Casper Stockham
+    2. Diana DeGette
+    3. Raymon Anthony Doane
+3. The candidate results were:
+    1. Charles Casper Stockham received 23.0% of vote and 85,213 number of votes.
+    2. Diana DeGette received 73.8% of vote and 272,892 number of votes.
+    3. Raymon Anthony Doane received 3.1% of vote and 11,606 number of votes.
 9. The winner of election was:
-10. Diana DeGette, who received 73.8% of vote and 272,892 number of votes.
+     Diana DeGette, who received 73.8% of vote and 272,892 number of votes.
 
-## **Challenge Overview**
+## **Challenge 2 Overview**
 
-The Colorado Board of Elections employee now wants us to perform an audit based on county. The following tasks need to be performed:
+The Colorado Board of Elections employee wants us to perform an audit based on county. The following tasks need to be performed:
 
 1. Get a complete list of counties who received votes.
 2. Calculate the total number of votes each county received.
@@ -49,22 +50,25 @@ The Colorado Board of Elections employee now wants us to perform an audit based 
     1. Jefferson
     2. Denver
     3. Arapahoe
-The results for each county are:
+2. The results for each county are:
     1. Jefferson received 10.5% of votes and a total of 38,855 votes.
     2. Denver received 82.8% of votes and a total of 306,055 votes.
     3. Arapahoe received 6.7% of votes and a total of 24,801 votes.
-The largest outcome of election was in:
+3. The largest outcome of election was in:
     Denver county, that received 82.8% of votes and a total of 306,055 votes.
 
 ## **Election Audit Summary**
 
-This python code showed us how to get results for small data set which includes ballot number, candidate name and location. We were able to find who won, by what percentage and which county got most votes. This code can be modified and used for any election and here here two examples:
+The python code showed us how to get results for small data set which includes ballot number, candidate name and location. We were able to find who won, by what percentage and which county got most votes. This code can be modified and used for any election and here here two examples:
 
-There dataset can include more voter information like gender and we can analyze what the vote distribution looks like. In the for loop we will add another counter to determine if the vote if male, female or other. Then we can use those counts to determine vote percent by gender.
-For the same data set we can determine votes for each candidate by county. We can add another dictionary in the candidate_votes which captures each county as key and total votes as a value. We will use an if loop to capture the county names just like we did for candidates.
-GitHUB Links
+1. The dataset can include more voter information like gender and we can analyze what the vote distribution looks like. In the for loop we will add another counter to determine if the vote if male, female or other. Then we can use those counts to determine vote percent by gender.
+2. For the same data set we can determine votes for each candidate by county. We can add another dictionary in the candidate_votes which captures each county as key and total votes as a value. We will use an if loop to capture the county names just like we did for candidates.
 
-Python Challenge Code
-Election Results Folder
-Election Resources Folder
-Election Analysis Text File
+Here is the snapshot of the results in terminal when the code is executed:
+
+![PyPoll- Termial results:](https://github.com/pnimma01/Python/blob/0ef1bfcc5a373788e173c89fd8bebcf484a7239f/Resources/Election_Results_Module3_Challenge.png)
+
+
+**GitHUB Links**
+
+[Python Challenge Code:] (https://github.com/pnimma01/Python/blob/0ef1bfcc5a373788e173c89fd8bebcf484a7239f/PyPoll_challenge.py)
