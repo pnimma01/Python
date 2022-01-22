@@ -66,9 +66,9 @@ The python code showed us how to get results for small data set which includes b
 
 Here is the snapshot of the results in terminal when the code is executed:
 
-![PyPoll- Termial results:](https://github.com/pnimma01/Python/blob/0ef1bfcc5a373788e173c89fd8bebcf484a7239f/Resources/Election_Results_Module3_Challenge.png)
+![PyPoll- Termial results](https://github.com/pnimma01/Python/blob/0ef1bfcc5a373788e173c89fd8bebcf484a7239f/Resources/Election_Results_Module3_Challenge.png)
 
 
 **GitHUB Links**
 
-[Python Challenge Code:] (https://github.com/pnimma01/Python/blob/0ef1bfcc5a373788e173c89fd8bebcf484a7239f/PyPoll_challenge.py)
+[Python Challenge Code](https://github.com/pnimma01/Python/blob/0ef1bfcc5a373788e173c89fd8bebcf484a7239f/PyPoll_challenge.py)
